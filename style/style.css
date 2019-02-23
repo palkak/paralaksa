@@ -34,3 +34,30 @@ article {
     color: #555;
 }
 
+.parallax-window-1 {
+    position: relative;
+}
+
+.parallax-window-1 .description {
+    color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 10px;
+    text-align: justify;
+    max-width: 40%;
+    background: rgba(3, 3, 3, 0.2);
+    padding: 0 20px;
+    border-radius: 5px;
+
+}
+
+@media (max-width: 750px) {
+    .parallax-window-1 .description {
+        max-width: 90%;
+    }
+    .parallax-window-1 .description p {
+        font-size: 18px;
+    }
+}

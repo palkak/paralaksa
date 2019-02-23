@@ -3,42 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <title>Paralaksa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 <body>
-    <nav>
-        <div class="container">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Site</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-    <div class="parallax-window-1" data-parallax="scroll" data-position="top" data-bleed="10" data-image-src="images/space-1920_786.png" data-natural-width="1920" data-natural-height="768" style="min-height: 400px"></div>
+<nav>
+    <div class="container">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Site</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="parallax-window-1" data-parallax="scroll" data-position="top" data-bleed="10"
+     data-image-src="images/space-1920_786.png" data-natural-width="1920" data-natural-height="768"
+     style="min-height: 400px">
 
-    <section>
-        <article class="article-1">
-            <div class="container ">
-                <h1>Artykuł 1</h1>
-            </div>
-        </article>
-    </section>
-    <div class="parallax-window-2" data-parallax="scroll" data-position="top" data-bleed="10" data-image-src="images/space-shuttle-1920_1280.png" data-natural-width="1920" data-natural-height="1280" style="min-height: 500px"></div>
-    <section>
-        <article class="article-2">
-            <div class="container">
-                <h1>Artykuł 2</h1>
-            </div>
-        </article>
-    </section>
-    <script>
-      $('.parallax-window-1').parallax({imageSrc: 'images/space-1920_786.png'});
-      $('.parallax-window-2').parallax({imageSrc: 'images/space-shuttle-1920_1280.png'});
-    </script>
+    <div class="description">
+        <h1>Lorem ipsum dolor</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque aut commodi cumque deleniti, dolor eligendi impedit minus officia provident, qui, repudiandae sed ut. Aliquam cupiditate ipsam labore nihil optio.</p>
+
+    </div>
+</div>
+
+<section>
+    <article class="article-1">
+        <div class="container ">
+            <h1>Artykuł 1</h1>
+        </div>
+    </article>
+</section>
+<div class="parallax-window-2" data-parallax="scroll" data-position="top" data-bleed="10"
+     data-image-src="images/space-shuttle-1920_1280.png" data-natural-width="1920" data-natural-height="1280"
+     style="min-height: 500px"></div>
+<section>
+    <article class="article-2">
+        <div class="container">
+            <h1>Artykuł 2</h1>
+        </div>
+    </article>
+</section>
+<script>
+  $('.parallax-window-1').parallax({imageSrc: 'images/space-1920_786.png'});
+  $('.parallax-window-2').parallax({imageSrc: 'images/space-shuttle-1920_1280.png'});
+</script>
 </body>
 </html>
-
-<!--<div class="parallax-container" data-parallax="scroll" data-position="top" data-bleed="10" data-image-src="./img/stellar-spire-eagle-nebula-1400x900.jpg" data-natural-width="1400" data-natural-height="900" style="height: 398px;"></div>-->
